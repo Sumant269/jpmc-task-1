@@ -28,7 +28,6 @@ QUERY = "http://localhost:8080/query?id={}"
 # 500 server request
 N = 500
 
-
 def getDataPoint(quote):
     stock = quote['stock']
     bid_price = float(quote['top_bid']['price'])
